@@ -1,3 +1,7 @@
+## APP: [https://tt0fh.sse.codesandbox.io/graphql](https://tt0fh.sse.codesandbox.io/graphql)  
+
+### CodeSandbox: [https://codesandbox.io/s/node-express-apollo-graphql-jwt-api-tt0fh](https://codesandbox.io/s/node-express-apollo-graphql-jwt-api-tt0fh)
+
 Setup:
 
 ```$xslt
@@ -7,10 +11,7 @@ http://localhost:8000/graphql
 ```
 
 
-
-# Back-end task of Code Challenge for Scoutbase
-
-This task is for demonstrating your understanding of HTTP, GraphQL, Node.js and general API practices.
+This code base is for understanding of HTTP, GraphQL, Node.js and general API practices.
 
 Instructions:
 
