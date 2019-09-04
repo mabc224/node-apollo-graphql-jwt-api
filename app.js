@@ -2,7 +2,6 @@ import express from 'express';
 import { ApolloServer } from 'apollo-server-express';
 import { formatError } from 'apollo-errors';
 import jwt from 'jsonwebtoken';
-import bodyParser from 'body-parser';
 import 'dotenv/config';
 
 import typeDefs from './src/schema';
@@ -10,8 +9,8 @@ import resolvers from './src/resolvers';
 import directives from './src/directives';
 
 
-
 const app = express();
+const { PORT } = process.env;
 
 const server = new ApolloServer({
   typeDefs,
@@ -58,6 +57,6 @@ server.applyMiddleware({
   },
 });
 
-app.listen({ port: 8000 }, () => {
+app.listen({ port: PORT }, () => {
   console.log('Apollo Server on http://localhost:8000/graphql');
 });

@@ -8,6 +8,9 @@ Setup:
 npm install
 npm start
 http://localhost:8000/graphql
+
+Running in dev mode
+npm run dev
 ```
 
 
