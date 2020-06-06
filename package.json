@@ -16,7 +16,7 @@
     "@babel/preset-env": "^7.5.5",
     "@babel/register": "^7.5.5",
     "apollo-errors": "1.9.0",
-    "apollo-server-express": "2.8.2",
+    "apollo-server-express": "2.14.2",
     "chance": "^1.0.18",
     "cors": "^2.8.5",
     "dotenv": "^8.1.0",
