@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "main": "app.js",
   "engines": {
-    "node": "10.16.0"
+    "node": ">=12.x"
   },
   "private": true,
   "author": "Arsalan Bilal <mabc224@gmail.com>",
